@@ -1,10 +1,4 @@
 {
-  "functions": {
-    "main.py": {
-      "runtime": "python3.9",
-      "compress": true
-    }
-  },
   "routes": [
     {
       "src": "/(.*)",
