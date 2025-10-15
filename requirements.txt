@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-pandas
-numpy
-scikit-learn
-prophet
-scipy
-openpyxl
-python-multipart
