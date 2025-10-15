@@ -15,7 +15,7 @@ app = FastAPI(title="Customer Support BI Dashboard API")
 # ---------- CORS ----------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", ],
+    allow_origins=["http://localhost:3000","https://customer-support-bi-dashboard-front.vercel.app/" ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
